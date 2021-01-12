@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+	margin: auto;
+}
+thead{
+	margin: auto;
+	padding: 10px;
+
+}
+ img{
+	width: 75px;
+	height: 75px;
+	display: block;
+	text-align: center;
+}
+
+caption{
+	margin: auto;
+	border:2px #000 solid;
+}
+
+	thead tr td{
+		margin: auto;
+
+	}
+
+
+td,th,thead,tbody{
+	border:1px solid black;
+}
+
+tr:nth-child(even){
+	 	background-color: #97a19e;
+	  }
+tr:nth-child(odd){
+	background-color: white;
+}
+tbody td:hover{
+	 	background-color: lightblue;
+	 }
+
+
+
+
+.book{
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	border: 3px solid;
+	background-color: #0cedc8;
+	padding: 10px;
+	width: 800px;
+	border-style: double;
+}
+
+
+
+

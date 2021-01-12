@@ -1,0 +1,84 @@
+<!-------f--------
+
+    Codind Challenge 3
+    Name: Salweyar Patel
+    Date: 11 October 2019
+    Description: Creating Form 
+
+----------------->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>EpicPurples Inc.</title>
+    <link rel="stylesheet" type="text/css" href="SalweyarCC3.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/1.jpg" class="i1" alt="Business"><!--Photo by Kari Shea on Unsplash -->
+       <!-- <img src="images/2.jpg" class="i2" alt="order">Photo by photo tora on Unsplash-->
+        <h1>Salweyar's Blog 3</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lop1">Lorem 1</a></li>
+            <li><a href="#lop2">Lorem 2</a></li>
+            <li><a href="#lop3">Lorem 3</a></li>
+            <li><a href="#lop4">Lorem 4</a></li>
+        </ul>
+    </nav>
+
+        <form id="EpicPurples">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <ol>
+                    <li>
+                        <label for="name">First Name</label>
+                        <input id="name" type="text" name="name" autofocus />
+                    </li>
+
+                    <li>
+                        <label for="lastname"> Last Name</label>
+                        <input id="lastname" type="text" name="lastname" />
+                    </li>
+
+                    <li>
+                        <label for="Email"> Email </label>
+                        <input id="Email" type="Email" name="Email" placeholder="ex: abc123@example.com" />
+                    </li>
+
+                    <li>
+                        <label for="Website">Website</label>
+                        <input id="Website" type="url" name="Website" placeholder="Copy your Website url here" />
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>level of “Epicness” </legend>
+                <ol>
+                     <li>
+                        <label for="level">Check boxes that apply to your items:</label><br />
+                        <input id="level" type="checkbox" name="level" />Pretty common
+                     </li>
+                     <li>
+                        <input id="Emerald" type="checkbox" name="level" />Emerald
+                     </li>
+                     <li>
+                        <input id="Holiday" type="checkbox" name="level" />Holiday Blue
+                     </li>
+                     <li>
+                        <input id="Barney" type="checkbox" name="level" />Barney Purple
+                    </li>
+                </ol>
+            </fieldset>
+
+             <fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+          </form>
+</body>
+</html>

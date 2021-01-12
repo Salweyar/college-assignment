@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Verdana;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #000;
+}
+
+a:hover, a:focus {
+	text-shadow: black 0px 0px 10px;
+}
+
+h2 {
+	padding: 4px;
+	background: #ffde00;
+	border-bottom: 8px double black;
+	text-transform: uppercase;
+}
+
+h4 {
+	position: relative;
+	float: left;	
+	clear: left;
+	top: -10px;		
+	height: 240px;	
+	width: 10px;
+	padding: 8px;
+	background: #ffde00;
+	text-align: center;
+	text-transform: uppercase;
+	border: 4px double black;
+	word-wrap: break-word;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;			
+}
+
+p {
+	width: 400px;
+	margin: 20px 20px;
+	padding: 10px 20px;
+	background: #ffd773;
+	text-align: justify;
+	border: 4px double black;	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#header {
+	margin: 8px auto;
+	padding: 4px;
+	padding-bottom: 0px;
+	width: 640px;
+	background: #ffb600;
+	border: 8px double black;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#header > .title {
+	display: block;
+	margin: 0px auto;
+	width: 400px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 72px;
+}
+
+#header > img {
+	float: right;
+}
+
+#navigation {
+	width: 600px;
+	margin: -8px auto;
+	height: 24px;
+	position: relative;
+	border: 8px double black;
+	background: #ffce00;
+	border-top: none;
+	-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+#navigation > ul {
+	display: inline;
+	list-style: none;
+}
+
+#navigation > ul li {
+	float: left;
+	width: 140px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#content {
+	margin: 8px auto 20px;
+	width: 540px;
+	background: #ffb600;	
+	border: 8px double black;
+	border-top: none;
+	text-align: center;
+	-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 20px 20px;		
+}
+
+#content > .section {
+	margin: 10px auto;
+	width: 480px;
+}
+
+#content > .section p .firstLetter {
+	font-weight: bold;
+}
+
+#content > .section p .highlight {
+	background: #ffb600;
+	border: 1px solid black;
+}

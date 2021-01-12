@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	font-family: Fixedsys;
+}
+
+body {
+	background-color: #99bbff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #0066bb;
+}
+
+a:hover, a:focus {
+	color: #99bbff;
+	background-color: #0066bb;
+}
+
+h2 {
+	letter-spacing: 4px;
+}
+
+h4 {
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+#header {
+	height: 64px;
+	padding: 4px;	
+	background-color: #99bbff;
+	border-bottom: 10px solid #0066bb;
+	vertical-align: text-bottom;
+
+}
+
+#header > .title {
+	position: relative;
+	top: 4px;
+	font-family: Fixedsys;
+	font-size: 64px;
+	color: #0066bb;
+	text-transform: uppercase;
+}
+
+#header > img {
+	position: relative;
+	top: 8px;
+	left: 8px;
+	z-index: 2;
+}
+
+#navigation {
+	padding: 0px 0px 20px 0px;
+	background: #99bbff;
+	border-bottom: 8px solid #0066bb;
+}
+
+#navigation > ul {
+	float: left;
+	width: 100%;
+	position: relative;
+	left: -40px;	
+	list-style: none;
+
+}
+
+#navigation > ul li {
+	float: left;
+	width: 25%;
+	height: 20px;	
+	text-align: center;
+}
+
+#navigation > ul li a {
+	display: block;
+	padding-bottom: 5px;
+}
+
+#content {
+	margin: 12px 24px;
+	padding: 12px;
+	color: #0066bb;
+	border: 8px solid #0066bb;
+}
+
+#content > .section {
+	padding: 12px;
+}
+
+#content > .section p {
+	padding-left: 12px;
+	text-indent: 8px;
+}
+
+#content > .section p .firstLetter {
+	font-weight: bold;
+}
+
+#content > .section p .highlight {
+	color: #99bbff;
+	background: #0066bb;
+}
