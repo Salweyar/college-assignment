@@ -1,0 +1,352 @@
+/******f**********
+    
+    Assignment 4 Stylesheet
+    Name: Salweyar Patel
+    Date: 10 October 2019
+    Description: Mock Website
+
+*****************/
+
+
+#main{
+	border: 1px solid;
+	box-shadow: 2px 2px grey;
+	margin: 0px auto;
+	max-width: 1050px;
+	border-radius: 10px;
+    padding: 10px 10px;
+    font-family: Verdana;
+}
+
+#s1{
+	display: flex;	
+}
+
+section#s1 img{
+	flex: 1;
+	/*display: inline;*/
+}
+
+section#s1 nav{
+	color:#1cc3ed;
+	flex: 5;
+	position: relative;
+	top: 20px;
+
+	/*display: inline-block;
+	position: relative;
+	left: 250px;
+	top: -5px;*/
+	
+}
+
+	 section#s1 nav ul{
+	 	display: flex;
+	 	justify-content: center;
+		list-style: none;
+		text-align: center;	
+
+	}
+
+		section#s1 nav ul li{
+			border-right: 2px black solid;
+			padding-right: 10px;
+			margin: 5px;
+			
+		}
+
+		section#s1 nav ul li a{
+			text-decoration: none;
+			transition: 5s;
+		}
+
+		section#s1 nav ul li:hover, nav ul li a:focus{
+				background-color: #b0b0ae;
+				transition: 2s;
+			}
+
+		section#s1 nav ul li:last-child{
+			border: none;
+		}
+			
+			
+
+section#s1 input{
+	flex: 1;
+	margin: 5px;
+	height: 25px;
+	align-self: center;
+
+	position: relative;
+	right: 10px;
+	top: 15px;
+	height: 20px;
+	
+}
+
+section#s1 button{
+	flex: 1;
+	margin: 5px;
+	align-self: center;
+	height: 30px;
+	
+	position: relative;
+	right: 10px;
+	top: 15px;
+	height: 25px;
+
+}
+
+header {
+ 	/*position: relative;
+ 	top:-29px;
+	background: url("images/headerBackground.jpg");
+	height: 400px;
+	 background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;*/
+  	position: relative;
+  	
+}
+
+header img{
+	width: 100%;
+}
+
+header h1{
+	color: white;
+	position: absolute;
+	left: 10px;
+	bottom: 200px;
+	font-size: 2.7em;
+	font-weight: lighter;
+	letter-spacing: 10px;
+}
+
+header p{
+	color: #FFF;
+	position: absolute;
+	right: 100px;
+	bottom: 45px;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+
+
+header nav{
+	position: relative;
+	top:-25px;
+	background:  linear-gradient(to bottom, #8cd8ea 0%,#69acbc 45%,#89c5d3 100%);
+	font-weight: bold;
+	color: #717571;
+	
+}
+	header nav ul{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		list-style: none;
+	}
+
+		header nav ul li{
+				border-right: 1px blue solid;
+
+				padding-right: 10px;
+				margin: 5px;
+				
+			}
+				header nav ul li a{
+				color: #FFF;
+				font-size: 1.2em;
+				text-decoration: none;
+			}
+
+			header nav ul li:hover, nav ul li a:focus{
+				background-color: #0b64d9;
+				transition: .5s;
+			}
+
+			header nav ul li:last-child{
+			border: none;
+		}
+	
+aside{
+	float: left;
+	position: relative;
+	top: 53px;
+	right: 0px;
+}
+
+aside nav{
+	float:left;
+	position: relative;
+	bottom: 110px;
+	right: 40px;
+	font-weight: bold;
+}
+	aside nav ul{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+		aside nav ul li{
+			line-height: 35px;
+			padding: 5px;
+			background: linear-gradient(to bottom, white 0%, lightgrey 44%,lightgrey 70%);
+			list-style-position:inside;
+    		border: 1px solid #E0E0E0;
+			
+		}
+			
+		aside nav ul li:first-of-type{
+			list-style: none;
+		}
+
+			aside nav ul li a{
+				text-decoration: none;
+			}
+
+			aside nav ul li a:hover, nav ul li a:focus{
+				background-color: #868786;
+				transition: .5s;
+			}
+
+
+#Natural{
+	float: left;
+	width: 23%;
+	margin: 600px -200px auto;
+	position: relative;
+	right: 50px;
+}
+
+#Natural p{
+	border-top: 1px solid;
+	width: 90%;
+	color: #808080;
+}
+
+#Natural p img{
+	float: right;
+	margin-top: 5px;
+	
+}
+
+#maincontext{
+	float: auto;
+	width: 100%;
+	position: relative;
+	top: -30px;
+	right: 10px;
+	
+}
+#maincontext > figure {
+	float: right;
+	border:2px #D8D8D8 solid;
+	width: 300px;
+	margin: 60px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 5px;
+}
+
+#maincontext figure img{
+	width: 100%;
+}
+
+#maincontext figure p{
+	position: relative;
+	top: -10px;
+}
+
+
+
+
+	#maincontext  p.s4{
+	color: #808080;
+}
+
+#maincontext a{
+		text-decoration: none;
+	}
+
+	#maincontext .a1,.a2,.a3,.a4,.a5,.a6,.a7{
+		color: #0984db;
+		font-weight: bolder;
+	}
+
+	#maincontext a:hover, a:focus{
+				background-color: #a7faf7;
+				transition: .5s;
+			}
+
+
+
+
+.s1{
+display: inline;
+}
+
+.s2{
+	line-height: 25px;
+}
+ .s3{
+	line-height: 50px;
+}
+
+
+footer{
+	clear: both;
+	font-size: 0.7em;
+	text-align: center;
+	position: relative;
+	margin: 220px 200px auto;
+}
+
+	footer nav ul{
+		list-style: none;
+		padding: 0px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 0px 100px auto;
+		
+	}
+
+	footer nav ul li{
+		border-right: 1px black solid;
+		padding-right: 20px;
+	}
+
+		footer nav ul li:hover, nav ul li a:focus{
+				background-color: #bdedf0;
+				transition: .5s;
+			}
+
+				footer a:hover, a:focus{
+				background-color: #bdedf0;
+				transition: .5s;
+			}
+
+	footer nav ul li:last-child{
+		border:none;
+	}
+footer p{
+	display: inline-block;
+	height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

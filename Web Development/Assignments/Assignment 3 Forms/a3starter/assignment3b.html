@@ -1,0 +1,132 @@
+<!-------f--------
+
+    Assignment 3 Part B
+    Name: Salweyar Patel
+    Date: 27 Sep 2019
+    Description: Creating Form 2
+
+----------------->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Customer Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="a3styles2.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/2.jpg" class="images" alt="Anime">
+        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@noemiphotography?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Noémi Macavei-Katócz"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Noémi Macavei-Katócz</span></a>
+
+        <h1>Salweyar's Blog 3.2</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lop1">Lorem 1</a></li>
+            <li><a href="#lop2">Lorem 2</a></li>
+            <li><a href="#lop3">Lorem 3</a></li>
+            <li><a href="#lop4">Lorem 4</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <form id="Feedback" action="thankyou.php" method="post">
+            <fieldset>
+                <legend>Create Information</legend>
+                <ol>
+
+                    <li>
+                        <label for="type"> Source </label>
+                        <select id="type" name="type">
+                            <option>Email</option>
+                            <option>Phone</option>
+                            <option>Social Media</option>
+                            <option selected>Phone</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="name">Full Name</label>
+                        <input id="name" type="text" name="name" autofocus/>
+                    </li>
+
+                    <li>
+                        <label for="Email"> Email </label>
+                        <input id="Email" type="Email" name="Email" placeholder="ex: abc123@example.com" />
+                    </li>
+
+                    <li>
+                        <label for="phone">Enter your phone number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="ex: 204-945-7835" required>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend> More Create Details</legend>
+                <ol>
+                    <li>
+                        <label for="Number">Repeate Case</label>
+                        <input id="Number" type="Number" name="Number" min="0" max="5">
+                    </li>
+
+                    <li>
+                        <label for="Date"> Registration Date </label>
+                        <input id="Date" type="Date" name="Date" value="2019-09-27" min="2018-01-01" max="2018-12-31" />
+                    </li>
+
+                    <li>
+                        <label for="Page">Personal Bio (FB,Insta or LinkIn)</label>
+                        <input id="Page" type="url" name="Page" placeholder="Copy your social media url" />
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <ol>
+
+                    <li>
+                        <label for="Acknowledgement">Choose Customer's Service Level </label>
+                        <input id="Acknowledgement" type="checkbox" name="Service"> Acknowledgement<br />
+                        <input id="Aopology" type="checkbox" name="Service">Recieve Aopology<br />
+                        <input id="High" type="checkbox" name="Service">Service Level High <br />
+                        <input id="Low" type="checkbox" name="Service">Service level Low<br />
+                        <input id="Praise" type="checkbox" name="Service">Other Praise<br />
+                        <input id="Behaviour" type="checkbox" name="Service">Inappropriate Behaviour</li>
+
+                    <li>
+                        <label for="HighDisagree">Customer Rating</label>
+                        <input id="HighDisagree" type="radio" name="Rating" />1 Star
+                        <input id="Disagree" type="radio" name="Rating" />2 Star
+                        <input id="OK" type="radio" name="Rating" />3 Star
+                        <input id="Agree" type="radio" name="Rating" />4 Star
+                        <input id="StrongAgree" type="radio" name="Rating" />5 Star
+                    </li>
+
+                    <li>
+                        <label for="English">Preferred Language</label>
+                        <input id="English" type="radio" name="Language" />English
+                        <input id="French" type="radio" name="Language" />French
+                    </li>
+
+                    <li>
+                        <label for="Comments">Customer Feedback</label>
+                        <textarea id="Comments" name="Comments" rows="5"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+
+        </form>
+    </section>
+</body>
+
+</html>

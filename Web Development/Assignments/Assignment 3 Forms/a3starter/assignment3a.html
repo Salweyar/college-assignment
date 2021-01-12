@@ -1,0 +1,114 @@
+<!-------f--------
+
+    Assignment 3 Part A
+    Name: Salweyar Patel
+    Date: 27 Sep 2019
+    Description: Creating Form 1
+
+----------------->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Registration For Event</title>
+    <link rel="stylesheet" type="text/css" href="a3styles1.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/1.jpg" class="images" alt="Business">
+        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@adeolueletu?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Adeolu Eletu"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Adeolu Eletu</span></a>
+
+        <h1>Salweyar's Blog 3.1</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lop1">Lorem 1</a></li>
+            <li><a href="#lop2">Lorem 2</a></li>
+            <li><a href="#lop3">Lorem 3</a></li>
+            <li><a href="#lop4">Lorem 4</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form id="Registration" action="thankyou.php" method="post">
+            <fieldset>
+                <legend> Registration Details </legend>
+                <ol>
+                    <li>
+                        <label for="name"> Name </label>
+                        <input id="name" type="text" name="name" autofocus />
+                    </li>
+
+                    <li>
+                        <label for="lastname"> Last Name</label>
+                        <input id="lastname" type="text" name="lastname" />
+                    </li>
+
+                    <li>
+                        <label for="Email"> Email </label>
+                        <input id="Email" type="Email" name="Email" placeholder="ex: abc123@example.com" />
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <ol>
+                    <li>
+                        <label for="Date"> Registration Date </label>
+                        <input id="Date" type="Date" name="Date" value="2019-09-27" min="2018-01-01" max="2018-12-31" />
+                    </li>
+
+                    <li>
+                        <label for="Gender">Gender</label>
+                        <input id="Gender" type="radio" name="Gender" />Male
+                        <input id="Female" type="radio" name="Gender" />Female
+                    </li>
+
+                    <li>
+                        <label for="Page">Personal Bio (FB, Insta or LinkIn)</label>
+                        <input id="Page" type="url" name="Page" placeholder="Copy your social media url" />
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <legend>General Question Section</legend>
+                <ol>
+                    <li>
+                        <label for="Number">Number of people you will bring?</label>
+                        <input id="Number" type="Number" name="Number" min="0" max="5" />
+                    </li>
+
+                    <li>
+                        <label for="meal">Do you want breakfast and lunch?</label>
+                        <input id="meal" type="checkbox" name="meal" />Breakfast
+                        <input id="lunch" type="checkbox" name="meal" />Lunch
+                    </li>
+
+                    <li>
+                        <label for="Program">Currect RRC Program</label>
+                        <select id="Program" name="Program">
+                            <option>Business Technology Management</option>
+                            <option>Business Information Technology</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="Comments">Comments</label>
+                        <textarea id="Comments" name="Comments" rows="4"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

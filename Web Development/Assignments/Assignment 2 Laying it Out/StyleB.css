@@ -1,0 +1,122 @@
+body{
+	background-color: #8bf08e;
+	margin: 0px auto;
+	font-family: 'Chilanka', cursive;
+}
+
+header{
+	margin: 10px auto;
+	padding: 20px;
+	border: 3px #436ae8 solid;
+	border-radius: 10px;
+	box-shadow: 10px 10px #8ea6f5;
+	background-color:  #14d6e0;		
+}
+
+	header img{
+		position: relative;
+		top: 10px;
+		left: 705px;
+		width: 100px;
+		height: 100px;
+		border: 2px #868a8a solid;
+		border-radius: 20px;
+	}
+
+		header h1{
+			text-shadow: 2px 2px #6c7573;
+			color: #424746;
+		}
+
+nav{
+	width: 100px;
+	height: 700px;
+	padding: 10px;
+	margin: 5px 35px 5px;
+ 	border: 1px #000 solid;
+ 	box-shadow: 10px 10px #a1a399;
+ 	border-width: thick;
+ 	border-radius: 10px;
+ 	float: left;
+ 	background-color: #FFF;
+
+	/*border: 1px #05e352 solid;
+	background-color: #69fab9;
+	*/
+	font-weight: bold;
+}
+
+	nav ul{
+		float: left;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		text-align: center;
+		justify-content: center;
+	}
+
+		nav ul li{
+			height: 150px;
+			padding: 10px;
+
+		}
+
+			nav ul li a{
+				color: #ed930c;
+				font-size: 1.2em;
+				text-decoration: none;
+			}
+
+			nav ul li:hover, nav ul li a:focus{
+				background-color: #54fff1;
+			}
+
+a:link{
+		color: #000;
+		text-decoration: none;
+	}
+
+	a:visited{
+		color: #e09f14;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	a:active{
+		color: red;
+	}
+
+div{
+	margin: auto;
+	overflow: auto;
+}
+
+	div section h2{
+		font-size: 1.5em;
+		line-height: 40px;
+		color: #5e188c;
+		border: 3px #fc1e43 solid;
+		border-radius: 10px;
+		text-shadow: 0.5px 0.5px #e477f2;
+		background-color: #fce7ca;
+	}
+
+.para{
+		font-style: oblique; 
+		color: #874c2a;
+		font-size: 1.2em;
+		font-family: 'Lobster', cursive;
+	}
+
+.para2{
+		font-style: italic;
+		color: #000;
+		font-size: 1.2em;
+		font-family: 'Dancing Script', cursive;
+}
+
+h1,h2{
+	text-align: center;
+}

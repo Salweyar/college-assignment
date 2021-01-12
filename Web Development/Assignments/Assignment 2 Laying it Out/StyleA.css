@@ -1,0 +1,154 @@
+body{
+	background-color: #9cf0d7;
+	margin:0px auto;
+	font-family: 'Satisfy', cursive;
+}
+
+header{
+	border: 2px #8c858c solid;
+	border-radius: 10px;
+	box-shadow: 5px 10px #8e9799;
+	background-color: #40edbf;		
+}
+
+	header img{
+		position: relative;
+		top: 10px;
+		left: 705px;
+		width: 100px;
+		height: 100px;
+		border: 1px #868a8a solid;
+		border-radius: 5px;
+	}
+
+		header h1{
+			text-shadow: 2px 2px #6c7573;
+			color: #424746;
+		}
+
+nav{
+	width: 100%;
+	background-color: #daf0d1;
+	border: 1px #57f54c solid;
+	font-weight: bold;
+	color: #717571;
+	margin: 0px auto;
+}
+
+	nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		text-align: center;
+		justify-content: center;
+	}
+
+		nav ul li{
+			flex: 1;
+			padding: 10px;
+			border: 1px #dbf268 solid;
+		}
+
+			nav ul li a{
+				color: #5b88c7;
+				font-size: 1.2em;
+				text-decoration: none;
+			}
+
+			nav ul li:hover, nav ul li a:focus{
+				background-color: #f5b840;
+				transform: rotate(25deg);
+			}
+
+		
+a:link{
+		color: white;
+		text-decoration: none;
+	}
+
+	a:visited{
+		color: #e09f14;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	a:active{
+		color: red;
+	}
+
+div{
+	margin: auto;
+}
+
+	div section h2{
+		font-size: 1.5em;
+		line-height: 40px;
+		color: #1387bd;
+		border: 3px #48c712 solid;
+		border-radius: 10px;
+		text-shadow: 0.5px 0.5px #3612c7;
+	}
+
+.para{
+		font-style: oblique; 
+		color: #000;
+		font-size: 1.2em;
+		font-family: 'Squada One', cursive;
+	}
+
+.para2{
+		font-style: italic;
+		color: #000;
+		font-size: 1.2em;
+		font-family: 'Bitter', serif;;
+}
+
+.colums{
+	display: flex;
+}
+
+.colums section{
+	padding: 10px;
+}
+
+
+.turnright{
+	flex: 1;
+	padding: 10px;
+	margin: 50px;
+}
+
+.turnleft{
+	flex: 1;
+	padding: 10px;
+	margin: 50px;
+
+}
+
+.colums2{
+	display: flex;
+	justify-content: space-between;
+}
+.colums2{
+	padding: 10px;
+}
+
+.turntop{
+	flex-basis: 50%;
+	padding: 10px;
+	margin: 50px;
+}
+
+.turnbottom{
+	flex-basis: 50%;
+	padding: 10px;
+	margin: 50px;
+}
+
+h1,h2{
+	text-align: center;
+}

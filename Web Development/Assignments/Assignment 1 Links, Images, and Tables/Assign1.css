@@ -1,0 +1,78 @@
+	body{
+		background-color: #03c2fc;
+		font-family: 'Satisfy', cursive;
+	}
+
+ 	header{
+	 	text-align: center;
+      	background: url('images/frank-mckenna-4V8JxijgZ_c-unsplash.jpg');
+      	background-size: cover;  
+	 }
+
+	p{
+	 	color:rgba(255,255,255,1);
+  		background: rgba(0,0,0,.5);
+  		padding: 10px;
+	 }
+
+   .box{
+    	padding: 10px;
+      	background: rgba(0,0,0,0.5);
+    }
+
+   .box2{
+    	display: inline;
+      	padding: 0px 10px 0px 10px;
+    }
+
+	.friends{
+		border: 5px solid;
+		background-color: white;
+	 }
+
+	tbody tr:hover{
+	 	background-color: red;
+	 }
+
+	thead th:hover{
+	 	background-color: red;
+	 }
+
+	 tr:nth-child(even){
+	 	background-color: rgba(0,0,0,.5);
+	  }
+
+	td,th,caption{
+	 	border:1px solid black;
+	 }
+
+	img {
+      	margin: 40px auto;
+    }
+
+    a:link{
+		color: white;
+		text-decoration: none;
+	}
+
+	a:visited{
+		color: white;
+	}
+
+	a:hover{
+		color: lightblue;
+	}
+
+	a:active{
+		color: red;
+	}
+
+	section{
+		max-width: 500px;
+      	padding: 20px;
+      	margin: 0px auto;
+	}
+
+	h1,h2,h3,h4,h5,h6{
+		text-shadow: 2px 2px 2px #CE5937;
+	}
